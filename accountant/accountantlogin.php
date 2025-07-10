@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title>accountant</title>
+  <link rel="stylesheet" href="/nc_assets/css/style.css">
+ <link rel="shortcut icon" href="/asset/logo.jpg">
+  <link rel="apple-touch-icon" sizes="144x144" href="/asset/logo.jpg">
+  <link rel="apple-touch-icon" sizes="120x120" href="/asset/logo.jpg">
+  <link rel="apple-touch-icon" sizes="114x114" href="/asset/logo.jpg">
+  <link rel="apple-touch-icon" sizes="76x76" href="/asset/logo.jpg">
+  <link rel="apple-touch-icon" sizes="72x72" href="/asset/logo.jpg">
+  <link rel="apple-touch-icon-precomposed" href="/asset/logo.jpg">
+  
+  <style>
+        body{
+           text-align: center;
+           align-items: center;
+           font-size: 2rem;
+           font-family: Arial, sans-serif;
+           margin: 0;
+           margin-bottom: 0;
+           background-color: rgb(178, 195, 241);
+        }
+        h3{
+
+        }
+        input{
+            height: 2rem;
+            width: 15rem;
+            font-family:Arial, sans-serif ;
+        
+        
+        
+        }
+        button{
+            height: 2rem;
+            width: 4rem;
+        }
+        form{
+            padding-bottom: 1rem;
+        }
+        footer{
+           
+            height:10%;
+            padding-top: 5rem;
+            font-size: 1rem;
+         
+            
+
+            
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+       <h3>SIGN IN</h3>
+       <form id="sign_in" action="accoun/accountantlogin.inc.php" method="post">
+        <input type="text" name="username" placeholder="username"><br>
+        <button id="login_button">log in</button>
+        
+       </form>
+
+      
+    </div>
+
+    
+    <footer>
+        CDC Microfinance
+
+    </footer>
+
+</body>
+
+</html>
